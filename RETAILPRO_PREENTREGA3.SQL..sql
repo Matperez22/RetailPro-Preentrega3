@@ -1,4 +1,11 @@
+IF DB_ID('RetailPro') IS NULL
+BEGIN
+    CREATE DATABASE RetailPro;
+END;
+GO
+
 USE RetailPro;
+GO
 
 -- =========================================================
 -- PRE-ENTREGA 3 - RETAILPRO
